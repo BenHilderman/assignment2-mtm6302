@@ -1,0 +1,106 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS */
+
+h1 {
+    overflow: hidden;
+    background-color: rgb(148, 148, 148);
+    padding: 30px 50px;
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-family: monospace;
+    padding-bottom: 8rem;
+}
+
+footer {
+    width: auto;
+    background-color: rgb(148, 148, 148);
+    padding: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.imagesgallerybig {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  width: 24rem;
+}
+
+.imagesgallery {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+}
+
+.images {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.desc {
+  font-family: monospace;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  font-weight: bold;
+  font-size: 1rem;}
