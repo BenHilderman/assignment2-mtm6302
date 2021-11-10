@@ -26,11 +26,12 @@ const imagedescriptions = [
   `This is a White-breasted Nuthatch on a birdhouse looking at seeds.`,
   `This is a Carolina chickadee on a hand looking left at seeds.`,
   `This is a Carolina chickadee on a hand looking away.`,
-  `This is a Carolina chickadee on a birdhouse.`,]
+  `This is a Carolina chickadee on a birdhouse.`,
+]
 
 // Get incrementally named images through loop
 for (let i = 1 ; i < 16; i++ ) {
-images.push(`<img src="/images/${hikeimages.name}${i}.jpg" id='${i}' width="330rem" class="imagesgallery">`)
+images.push(`<img src="./images/${hikeimages.name}${i}.jpg" id='${i}' width="330rem" class="imagesgallery">`)
 }
 
 // Display images
